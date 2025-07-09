@@ -1,0 +1,165 @@
+/* --- common css found in all pages starts here --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    width: 280px;
+    height: 385px;
+    background-color: #DDF4FF;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 180px;
+}
+
+.highlight {
+    color: #ff66c4;
+}
+
+.title {
+    font-family: 'Fredoka';
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    height: max-content;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: #ff66c4;
+}
+
+button {
+    font-family: 'Fredoka';
+    font-weight: 700;
+    font-size: 19px;
+    background-color: #fffd62;
+    border: none;
+    padding: 2% 6%;
+    border-radius: 12px;
+}
+
+.descVer2 {
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: 1% 6% 2%;
+    color: #b7b4af;
+    font-size: 13px;
+}
+
+.buttonSection {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 2% 0%;
+}
+
+.button2 {
+    font-family: 'Fredoka';
+    font-weight: 700;
+    font-size: 19px;
+    background-color: #fffd62;
+    border: none;
+    padding: 2% 13%;
+    border-radius: 12px;
+}
+
+/* --- ends here --- */
+
+
+
+/* --- for homepage --- */
+
+#desc {
+    margin: 2% 3% 3%;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    text-align: center;
+    color: #545454;
+}
+
+#question {
+    font-family: 'Quicksand';
+    font-size: 13px;
+    text-align: center;
+    color: #b7b4af;
+    margin: 2% 0% 2%;
+}
+
+
+
+/* --- ends here --- */
+
+
+/* --- for link page --- */
+
+#upperSection {
+    margin: 5% 0% 4%;
+}
+
+#linkDesc2 {
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 13px;
+    color: #545454;
+    margin: 2% 0% 3%;
+}
+
+.apiKeySection {
+    width: 250px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin: 2% 0%;
+}
+
+#api-key {
+    border: none;
+    font-family: 'Quicksand';
+    width: 230px;
+    height: 22px;
+    border-radius: 8px;
+    color: #545454;
+}
+
+#confirmAPI {
+    width: 120px;
+    color:#ff66c4;
+    font-family: 'Fredoka';
+    font-weight: 700;
+    font-size: 19px;
+    background-color: #fffd62;
+    margin: 3% 0%;
+    border-radius: 12px;
+    transition: background-color 0.3s ease; 
+}
+
+#successMessage {
+    margin: 0;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    color:#029710;
+    display: none;
+}
+
+/* --- ends here --- */
+
+/* --- for intro2ed --- */
+
+#edSection {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    margin: 6% 0% 1%;
+}
+
+/* --- ends here --- */
